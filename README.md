@@ -1,7 +1,7 @@
 DESCRIPTION
 ====
 
-Installs a script that resolve attributes DNS list.
+Installs a script and dependencies that gets geoip location of domains given as input.
 
 REQUIREMENTS
 ====
@@ -11,7 +11,7 @@ Tested on Ubuntu 14.04.
 USAGE
 ====
 
-The default recipe will install a script that takes DNS list from chef attributes and resolve the geoip location.
+geoip_resolv.rb DOMAIN1 DOMAIN2 DOMAIN3 ...
 
 LICENSE AND AUTHOR
 ====
