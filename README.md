@@ -1,7 +1,7 @@
 DESCRIPTION
 ====
 
-Installs a script and dependencies that gets geoip location of domains given as input.
+Installs a script and dependencies that gets geoip location of domains given as input and writes the output to a YAML file stored in home directory of the user that runs it.
 
 REQUIREMENTS
 ====
