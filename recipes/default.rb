@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: geoiplookup-test
+# Cookbook Name:: geoip-lookup
 # Recipe:: default
 #
 # Installs script that perform a geo localization of DNS list
