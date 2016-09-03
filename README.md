@@ -1,12 +1,17 @@
 DESCRIPTION
 ====
 
-Installs a script and dependencies that gets geoip location of domains given as input and writes the output to a YAML file stored in home directory of the user that runs it.
+Installs a script and dependencies that gets geoip location of domains given as input and writes the output to a YAML file stored in /etc/domains_geo.yml.
+
+Also install a cookbook that creates and attribute default["geoip_data"]["domains"] where some domains are stored.
+
+This cookbook runs some operations that gets domains stored on default["geoip_data"]["domains"] and gets its geolocalization
+and store them in default["geoip_data"]["domains_geo"] and also perform a backup in the file /etc/domains_geo.yml
 
 REQUIREMENTS
 ====
 
-Tested on Ubuntu 14.04.
+Tested on Ubuntu 12.04.
 
 USAGE
 ====
