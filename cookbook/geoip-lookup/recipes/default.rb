@@ -12,9 +12,9 @@ require 'yaml'
 package "Install geoip-lookup" do
   case node[:platform]
     when 'redhat','centos'
-      package_name ['GeoIP','GeoIP-data','ruby']
+      package_name ['GeoIP','GeoIP-data','ruby','wget']
     when 'ubuntu', 'debian'
-      package_name ['geoip-database','geoip-bin','libgeoip-dev','ruby']
+      package_name ['geoip-database','geoip-bin','libgeoip-dev','ruby','wget']
   end
   action :nothing
 end.run_action(:upgrade)
