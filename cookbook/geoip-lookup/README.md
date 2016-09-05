@@ -13,6 +13,8 @@ REQUIREMENTS
 
 Tested on Ubuntu 12.04.
 
+Before executing the cookbook be aware of run "apt-get update" to be able to download packages needed by this cookbook.
+
 USAGE
 ====
 For running the cookbook with chef-solo:
